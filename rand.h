@@ -11,7 +11,7 @@
 #endif
 
 #if defined(__APPLE__)
-#include <unistd.h>
+#include <sys/random.h>
 #endif
 
 #if defined(__linux__)
